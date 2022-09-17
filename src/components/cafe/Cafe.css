@@ -1,0 +1,34 @@
+.menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: underline;
+  font-family: "Courier New", Courier, monospace;
+  color: black;
+  font-size: 50px;
+}
+.menuitem {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: underline;
+  font-family: "Courier New", Courier, monospace;
+  color: black;
+  font-size: 30px;
+  background: rgb(220, 11, 185);
+}
+.item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: underline;
+  font-family: "Courier New", Courier, monospace;
+  color: black;
+  font-size: 30px;
+}
+.food-item {
+  background-color: greenyellow;
+}
+.drink-item {
+  background-color: greenyellow;
+}
