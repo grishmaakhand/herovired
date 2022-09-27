@@ -1,0 +1,160 @@
+body {
+  background-color: azure;
+}
+.btn {
+  border: 2px solid;
+  background-color: azure;
+
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  right: 100px;
+}
+/* Blue */
+.info {
+  border-color: #2196f3;
+  color: dodgerblue;
+}
+
+.info:hover {
+  background: #2196f3;
+  color: white;
+}
+.cart1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 60px;
+  margin-bottom: 10px;
+  color: blueviolet;
+  font-size: 50px;
+  font-family: Algerian;
+}
+.cart2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+.btn1 {
+  border: 2px solid;
+  background-color: azure;
+
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  left: 500px;
+}
+.btn1 a {
+  font-size: 20px;
+  display: block;
+  text-decoration: none;
+
+  transition: 1.5s;
+}
+
+.btn1 a:hover {
+  letter-spacing: 5px;
+}
+.btn2 {
+  border: 2px solid;
+  background-color: azure;
+
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  right: 500px;
+}
+.btn2 a {
+  font-size: 20px;
+  display: block;
+  text-decoration: none;
+
+  transition: 1.5s;
+}
+
+.btn2 a:hover {
+  letter-spacing: 5px;
+}
+
+.cart3 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+  position: relative;
+  top: 15px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  border: none;
+  padding: 15px;
+  border-radius: 15px;
+  box-shadow: 0 0 8px #d9d4e7;
+  width: 70px;
+  height: 60px;
+  background-color: #d9d4e7;
+  animation-duration: 5s;
+}
+.cart3 button {
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 0 8px rgb(207, 207, 207);
+}
+
+.cart3 button:hover {
+  border: none;
+  padding: 15px;
+  border-radius: 15px;
+  box-shadow: inset 0 0 8px #f9f8fc;
+}
+
+.button {
+  position: absolute;
+  width: 70px;
+  height: 65px;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  background-color: #f9f8fc;
+
+  transition: background-color 2.2s;
+  transition-duration: 3s;
+  transition: 1.5s;
+}
+
+.button:hover {
+  position: absolute;
+  top: 30px;
+  background-color: #fec7d7;
+}
+
+.button a {
+  font-size: 20px;
+  display: block;
+  text-decoration: none;
+
+  transition: 1.5s;
+}
+
+.button a:hover {
+  letter-spacing: 5px;
+}
