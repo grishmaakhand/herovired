@@ -1,0 +1,17 @@
+1. SELECT * FROM ContactTable 
+    WHERE Active_flag=1;
+
+2.SELECT * FROM ContactTable 
+    WHERE opt_out=0;
+
+3. DELETE FROM ContactTable WHERE        company="ABC";
+
+4.insert into  (id,fname,Email,company,	
+Active_flag,opt_out) value(658,'mili',‘mili@gmail.com’,‘DGH’,1,1);
+
+5.SELECT DISTINCT company FROM ContactTable;
+
+6.UPDATE ContactTable
+SET fname = 'niti'
+WHERE id =658;
+
