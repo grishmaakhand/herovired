@@ -1,0 +1,14 @@
+{
+  "name": "expressndreactassiment",
+  "version": "1.0.0",
+  "description": "assiment for herovired on express and react",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "grishma",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
