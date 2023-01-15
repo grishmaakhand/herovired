@@ -10,37 +10,38 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(router);
 
-const userSchema = new mongoose.Schema({
-  //step 4 code line number1
-  userName: {
-    type: String,
-    required: true,
-  },
-  userId: {
-    type: Number,
-    required: true,
-  },
-  userBlog: {
-    type: String,
-    required: true,
-  },
-}); //step 4 code line till here
+// const userSchema = new mongoose.Schema({
+//   //step 4 code line number1
+//   userName: {
+//     type: String,
+//     required: true,
+//   },
+//   userId: {
+//     type: Number,
+//     required: true,
+//   },
+//   userBlog: {
+//     type: String,
+//     required: true,
+//   },
+// }); //step 4 code line till here
 
-const userModel = connection.model("user", userSchema); //step 5
+// const userModel = connection.model("user", userSchema); //step 5
 
-let userData = {
-  userName: body.userName,
-  userId: body.userId,
-  userBlog: body.userBlog,
-};
+// let userData = {
+//   userName: body.userName,
+//   userId: body.userId,
+//   userBlog: body.userBlog,
+// };
 
-userModel.create(userData, (err) => {
-  if (err) {
-    console.log(err);
-  } else {
-    console.log("data saved");
-  }
-});
+// userModel.create(userData, (err) => {
+//   if (err) {
+//     console.log(err);
+//   } else {
+//     console.log("data saved");
+//   }
+// });
+console.log("hello w");
 
 app.listen(2000, () => {
   console.log("application working on 2000 port");
