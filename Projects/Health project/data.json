@@ -1,0 +1,130 @@
+[
+  {
+    "name": "Dr. George Anderson",
+    "specialty": "Family Medicine",
+    "education": "Graduated from Harvard Medical School with a Doctor of Medicine degree",
+    "location": "Jacksonville, Florida",
+    "experience": "21+ years of experience in private family practice",
+    "organizations": "American Academy of Family Physicians, American Medical Association, Florida Academy of Family Physicians"
+  },
+  {
+    "name": "Dr. Jane Robinson",
+    "specialty": "Internal Medicine",
+    "education": "Graduated from Stanford University School of Medicine with a Doctor of Medicine degree and completed her residency in Internal Medicine at Duke University Medical Center.",
+    "location": "Orlando, Florida",
+    "experience": "15+ years of experience in various medical specialties, including Internal Medicine, Cardiology and Gastroenterology.",
+    "organizations": "American College of Physicians, American Medical Association, Society of General Internal Medicine."
+  },
+  {
+    "name": "Dr. Michael Evans",
+    "specialty": "Neurology",
+    "education": "Graduated from the Icahn School of Medicine at Mt Sinai with a Doctor of Medicine degree. He also completed a fellowship in Neurophysiology at Jackson Memorial Hospital in Miami.",
+    "location": "Tampa, Florida",
+    "experience": "18+ years as a board certified neurologist specializing in multiple sclerosis and epilepsy.",
+    "organizations": "American Academy of Neurology, American Association of Neuromuscular & Electrodiagnostic Medicine, North American Neuromodulation Society."
+  },
+  {
+    "name": "Dr. Sara Lee",
+    "specialty": "Dermatology",
+    "education": "Received her Bachelor’s degree from Wellesley College prior to completing her medical degree at Mount Sinai School of Medicine; she finished her residency training in Dermatology at the University Of Miami Miller School Of Medicine.",
+    "location": "Miami Beach, Florida",
+    "experience": "14+ years providing general dermatological care as well as performing cosmetic treatments such as Botox injections and laser therapy.",
+    "organizations": "American Academy Of Dermatology, Women’s Dermatologic Society, International Society Of Dermatologic Surgery."
+  },
+  {
+    "name": "Dr. David Smith",
+    "specialty": "Emergency Care",
+    "education": "He graduated from the Medical College Of Georgia with his Doctorate In Emergency Care then went on to complete his residency training at St Luke's Roosevelt Hospital Center in New York City.",
+    "location": "Tallahassee, Florida",
+    "experience": "20+ years working emergency room medicine and trauma care for critically ill patients. ",
+    "organizations": "American Board Of Emergency Medicine , American College Of Emergency Physicians , International Association For Trauma Professionals."
+  },
+  {
+    "name": "Dr. Michelle Phillips",
+    "specialty": "Pediatrics ",
+    "education": "​​​​​She earned both her Bachelor's Degree and Doctorate In Pediatrics from Johns Hopkins University before relocating to Orlando to complete her pediatric esidency.",
+    "location": "Jacksonville, Florida",
+    "experience": "10+ years of experience treating pediatric patients in emergency and urgent care settings.",
+    "organizations": "American Academy Of Pediatrics, American Medical Association."
+  },
+  {
+    "name": "Dr. Elizabeth Johnson",
+    "specialty": "Pediatrics",
+    "education": "Graduated from the University of Michigan Medical School with a Doctor of Medicine degree",
+    "location": "Chicago, Illinois",
+    "experience": "15 years of experience in pediatric care",
+    "organizations": "American Academy of Pediatrics, American Medical Association, Illinois State Medical Society"
+  },
+  {
+    "name": "Dr. David Williams",
+    "specialty": "Internal Medicine",
+    "education": "Graduated from the University of California, San Francisco School of Medicine with a Doctor of Medicine degree",
+    "location": "San Francisco, California",
+    "experience": "18 years of experience in internal medicine",
+    "organizations": "American College of Physicians, American Medical Association, California Medical Association"
+  },
+  {
+    "name": "Dr. Rachel Kim",
+    "specialty": "OB-GYN",
+    "education": "Graduated from the Johns Hopkins University School of Medicine with a Doctor of Medicine degree",
+    "location": "Baltimore, Maryland",
+    "experience": "12 years of experience in obstetrics and gynecology",
+    "organizations": "American Congress of Obstetricians and Gynecologists, American Medical Association, Maryland Obstetrical and Gynecological Society"
+  },
+  {
+    "name": "Dr. Michael Brown",
+    "specialty": "Surgery",
+    "education": "Graduated from the Yale School of Medicine with a Doctor of Medicine degree",
+    "location": "New Haven, Connecticut",
+    "experience": "20 years of experience in surgical care",
+    "organizations": "American College of Surgeons, American Medical Association, Connecticut State Medical Society"
+  },
+  {
+    "name": "Dr. Jessica Thompson",
+    "specialty": "Dermatology",
+    "education": "Graduated from the University of Pennsylvania School of Medicine with a Doctor of Medicine degree",
+    "location": "Philadelphia, Pennsylvania",
+    "experience": "14 years of experience in dermatology",
+    "organizations": "American Academy of Dermatology, American Medical Association, Pennsylvania Medical Society"
+  },
+  {
+    "name": "Dr. John Smith",
+    "specialty": "Psychiatry",
+    "education": "Graduated from the Duke University School of Medicine with a Doctor of Medicine degree",
+    "location": "Durham, North Carolina",
+    "experience": "17 years of experience in psychiatry",
+    "organizations": "American Psychiatric Association, American Medical Association, North Carolina Medical Society"
+  },
+  {
+    "name": "Dr. Mary Taylor",
+    "specialty": "Orthopedics",
+    "education": "Graduated from the University of Virginia School of Medicine with a Doctor of Medicine degree",
+    "location": "Charlottesville, Virginia",
+    "experience": "15 years of experience in orthopedic care",
+    "organizations": "American Academy of Orthopaedic Surgeons, American Medical Association, Virginia Medical Society"
+  },
+  {
+    "name": "Dr. Peter Nguyen",
+    "specialty": "Neurology",
+    "education": "Graduated from the Stanford University School of Medicine with a Doctor of Medicine degree",
+    "location": "Palo Alto, California",
+    "experience": "20 years of experience in neurology",
+    "organizations": "American Academy of Neurology, American Medical Association, California Medical Association"
+  },
+  {
+    "name": "Dr. Sarah Davis",
+    "specialty": "Endocrinology",
+    "education": "Graduated from the University of Chicago Pritzker School of Medicine with a Doctor of Medicine degree",
+    "location": "Chicago, Illinois",
+    "experience": "12 years of experience in endocrinology",
+    "organizations": "American Association of Clinical Endocrinologists, American Medical Association, Illinois State Medical Society"
+  },
+  {
+    "name": "Dr. Michael Johnson",
+    "specialty": "Cardiology",
+    "education": "Graduated from the Columbia University College of Physicians and Surgeons with a Doctor of Medicine degree",
+    "location": "New York, New York",
+    "experience": "15 years of experience in cardiology",
+    "organizations": "American College of Cardiology, American Medical Association, New York State Medical Society"
+  }
+]

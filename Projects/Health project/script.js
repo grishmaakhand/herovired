@@ -31,3 +31,19 @@ function validate() {
   alert("Form Submitted Successfully!");
   return true;
 }
+
+//API code
+const storeApiUrl = "./data.json";
+
+const apiCreate = async (url) => {
+  const response = await fetch(url);
+  let data = await response.json();
+  console.log(data);
+  show(data);
+};
+
+apiCreate(storeApiUrl);
+
+const showOnHtml = () => {
+  for (let i = 0; i < data.length; i++) {}
+};
