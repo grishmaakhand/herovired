@@ -44,6 +44,26 @@ const apiCreate = async (url) => {
 
 apiCreate(storeApiUrl);
 
-const showOnHtml = () => {
-  for (let i = 0; i < data.length; i++) {}
-};
+// const showOnHtml = () => {
+//   for (let i = 0; i < data.length; i++) {}
+// };
+function show(data) {
+  let tab = `<tr>
+		<th>name</th>
+		<th>location</th>
+		<th>experience</th>
+		<th>organizations</th>
+		</tr>`;
+
+  // Loop to access all rows
+  for (let r of data) {
+    tab += `<tr>
+	<td>${r.name} </td>
+	<td>${r.location}</td>
+	<td>${r.experience}</td>
+	<td>${r.organizations}</td>		
+</tr>`;
+  }
+  // Setting innerHTML as tab variable
+  document.getElementById("phone").innerHTML = tab;
+}
