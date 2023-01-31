@@ -10,6 +10,7 @@
 body {
   background-color: rgb(251, 255, 9);
 }
+/* nav style */
 .header {
   position: fixed;
   top: 0;
@@ -28,6 +29,11 @@ body {
   color: yellow;
   font-family: Edwardian Script ITC;
 }
+.navbar-fixed-top .scrolled {
+  background-color: #fff !important;
+  color: black;
+  transition: background-color 200ms linear;
+}
 .header .navbar a {
   display: inline-block;
   padding: 1.2rem;
@@ -42,6 +48,11 @@ body {
 .mainimg {
   margin-top: 80px;
 }
+.navbar-fixed-top.scrolled {
+  background-color: #fff !important;
+  transition: background-color 200ms linear;
+}
+/* home style */
 .home {
   background-image: url("img/mainimg.jpg");
   height: 700px;
@@ -78,6 +89,7 @@ body {
   background-color: yellow;
   color: black;
 }
+/* popup form style */
 .form-popup {
   display: none;
   position: fixed;
@@ -203,7 +215,7 @@ img {
   font-size: 20px;
 }
 
-.button {
+.buttonn {
   background-color: #000000;
   border: none;
   color: yellow;
@@ -212,20 +224,40 @@ img {
   text-decoration: none;
   font-size: 18px;
 }
+
+.thead {
+  padding: 50px;
+  text-align: center;
+  font-size: 50px;
+}
+.trainerssection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+
 .card {
+  flex: 20%;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   max-width: 300px;
   margin: auto;
   text-align: center;
   font-family: arial;
+  margin: 20px;
+}
+.card h1 {
+  margin-top: 20px;
 }
 
 .title {
   color: grey;
   font-size: 18px;
+  margin: 5px;
 }
 
-button {
+a button {
+  margin-top: 80px;
   border: none;
   outline: 0;
   display: inline-block;
@@ -242,9 +274,4 @@ a {
   text-decoration: none;
   font-size: 22px;
   color: black;
-}
-
-button:hover,
-a:hover {
-  opacity: 0.7;
 }
