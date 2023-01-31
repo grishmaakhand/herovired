@@ -11,7 +11,7 @@ body {
   background-color: rgb(251, 255, 9);
 }
 /* nav style */
-.header {
+.headersection {
   position: fixed;
   top: 0;
   right: 0;
@@ -29,11 +29,7 @@ body {
   color: yellow;
   font-family: Edwardian Script ITC;
 }
-.navbar-fixed-top .scrolled {
-  background-color: #fff !important;
-  color: black;
-  transition: background-color 200ms linear;
-}
+
 .header .navbar a {
   display: inline-block;
   padding: 1.2rem;
