@@ -1,0 +1,105 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  background-color: #edeff1;
+}
+.container-fluid {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.logo {
+  max-width: 150px;
+  padding: 0;
+  margin: 0;
+}
+.textnav {
+  font-size: 15px;
+}
+.BAsection {
+  background-color: rgb(39, 39, 91);
+}
+.BAsection h1 {
+  font-size: 50px;
+  text-align: center;
+  padding-top: 20px;
+  color: aliceblue;
+}
+.BAsection form {
+  padding: 10px 25rem;
+}
+.error {
+  color: rgb(255, 0, 0);
+  background-color: aliceblue;
+  text-align: center;
+  font-size: 15px;
+}
+.input_field {
+  display: flex;
+  flex-direction: column;
+}
+.input_field label {
+  text-align: center;
+  color: aliceblue;
+  font-size: 20px;
+  margin-top: 10px;
+}
+.input_field input {
+  padding: 0.3rem;
+  background-color: aliceblue;
+}
+.BAbtn {
+  background-color: aliceblue;
+  text-align: center;
+  margin-top: 10px;
+}
+/******************** doctor list section style ************/
+.doctorlistsection {
+  background-color: rgb(39, 39, 91);
+}
+.doctorlistsection h1 {
+  font-size: 50px;
+  text-align: center;
+  padding-top: 20px;
+  color: aliceblue;
+}
+#doctortable {
+  padding: 30px;
+  margin: 10px 50px;
+  color: #edeff1;
+}
+#doctortable th {
+  font-size: 30px;
+  text-align: center;
+  background-color: aliceblue;
+  color: rgb(39, 39, 91);
+  border: 1px solid rgb(39, 39, 91);
+  padding: 5px;
+}
+#doctortable td {
+  border: 1px solid aliceblue;
+  padding: 5px;
+  text-align: center;
+}
+/******************** find hospital section style ************/
+.findsection h1 {
+  font-size: 50px;
+  text-align: center;
+  color: aliceblue;
+}
+.findsection {
+  background-color: rgb(39, 39, 91);
+  padding: 150px 300px;
+}
+.search {
+  display: flex;
+  flex-direction: column;
+}
+.search button {
+  margin-top: 20px;
+}

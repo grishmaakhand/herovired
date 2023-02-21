@@ -5,47 +5,66 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Myorg</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
     <script src="script.js"></script>
+    
     <body>
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">MyOrg</a>
+      <div class="container-fluid ">
+        <a class="navbar-brand" href="#" >
+          <img class="logo" src="img/logo.png">
+        </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
-            <a class="nav-link" href="#">Features</a>
-            <a class="nav-link" href="#">Pricing</a>
-            <a class="nav-link disabled">Disabled</a>
+        <div class="collapse navbar-collapse  " id="navbarNavAltMarkup">
+          <div class="navbar-nav textnav ">
+            <a href="#" class="nav-link active" aria-current="page">Booking Appointment</a>
+            <a href="" class="nav-link " >Consult Online</a>
+            <a href="" class="nav-link" >Buy Medicine</a>
+            <a href="" class="nav-link">Find Hospital</a>
+            <a href="doctorlist.html" class="nav-link">Doctor List</a>
+            <a href="" class="nav-link">Contact us</a>
           </div>
         </div>
       </div>
     </nav>
-    <div>
-      <h2>Contact us</h2>
-      <div id="error_message"></div>
+
+    <div class="BAsection">
+      <h1>Booking Appointment</h1>
+      
       <form action="" id="myform" onsubmit="return validate();">
+        <div id="error_message" class="error"></div>
         <div class="input_field">
-          <input type="text" placeholder="Name" id="name" />
+          <label>Name</label>
+          <input type="text" placeholder="Enter Name" id="name" />
         </div>
 
         <div class="input_field">
-          <input type="text" placeholder="Phone" id="phone" />
+          <label>Phone</label>
+          <input type="text" placeholder="Enter Phone" id="phone" />
+        </div>
+
+        <div class="input_field">
+          <label>Date</label>
+          <input type="date" placeholder="Enter Date" id="date" />
         </div>
         <div class="input_field">
-          <input type="text" placeholder="Email" id="email" />
+          <label>Enter Doctor Name</label>
+          <input placeholder="Enter Doctor Name" id="doctorName">
         </div>
-        <div class="input_field">
-          <textarea placeholder="Message" id="message"></textarea>
-        </div>
-        <div class="btn">
-          <input type="submit" />
+        <div class="BAbtn">
+          <input type="submit" class="btn btn-lg btn-block" />
         </div>
       </form>
     </div>
+
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
   </body>

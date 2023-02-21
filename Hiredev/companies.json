@@ -1,0 +1,34 @@
+[
+  {
+    "name": "Company",
+    "uname": "company1",
+    "pword": "password",
+    "phone": "2424",
+    "email": "email@email.com",
+    "technologies": []
+  },
+  {
+    "name": "Company2",
+    "uname": "company2",
+    "pword": "password",
+    "phone": "2424",
+    "email": "email@email.com",
+    "technologies": []
+  },
+  {
+    "name": "Company3",
+    "uname": "company3",
+    "pword": "gsdfkfs",
+    "phone": "23414",
+    "email": "dev1@gmail.com",
+    "technologies": []
+  },
+  {
+    "uname": "grishma",
+    "name": "Grishma kishor Akhand",
+    "password": "123456",
+    "phone": "09021671474",
+    "email": "grishmaakhand18@gmail.com",
+    "technologies": []
+  }
+]
