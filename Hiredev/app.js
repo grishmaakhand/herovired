@@ -1,8 +1,20 @@
 const express = require("express");
-const app = express();
 const cors = require("cors");
+const Mongoose = require("mongoose");
 const PageController = require("./controllers/PageController");
 
+const app = express();
+app.listen(5001, () => console.log("Server running on 5001"));
+
+Mongoose.connect("mongodb://localhost/hiredev", {
+  useNewUrlParser: true,
+})
+  .then(() => {
+    console.log("connected to mongodb");
+  })
+  .catch((error) => {
+    console.log(error);
+  });
 app.use(cors());
 app.use(express.json());
 //required when using form
@@ -19,5 +31,3 @@ app.post("/post-job", PageController.postJob);
 app.get("/dev-list", PageController.devList);
 app.get("/comp-list", PageController.compList);
 app.get("/job-list", PageController.jobList);
-
-app.listen(5001, () => console.log("Server running on 5001"));

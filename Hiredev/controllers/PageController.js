@@ -21,22 +21,26 @@ const hireDeveloper = (req, res) => {
   return res.json({ message: "form submitted" });
 };
 
+// const registerDeveloper = (req, res) => {
+//   fs.readFile("developers.json", "utf-8", (err, data) => {
+//     if (err) throw err;
+//     let existingData = JSON.parse(data);
+//     existingData.push(req.body);
+//     existingData = JSON.stringify(existingData);
+
+//     fs.writeFile("developers.json", existingData, (err) => {
+//       if (err) throw err;
+//       console.log("Data appended to file");
+//     });
+//   });
+
+//   return res.json({ message: "form submitted" });
+//   //open json file and append it with latest userdata
+// };
 const registerDeveloper = (req, res) => {
-  fs.readFile("developers.json", "utf-8", (err, data) => {
-    if (err) throw err;
-    let existingData = JSON.parse(data);
-    existingData.push(req.body);
-    existingData = JSON.stringify(existingData);
-
-    fs.writeFile("developers.json", existingData, (err) => {
-      if (err) throw err;
-      console.log("Data appended to file");
-    });
-  });
-
-  return res.json({ message: "form submitted" });
-  //open json file and append it with latest userdata
+  res.render("hire-developer");
 };
+
 const login = (req, res) => {
   const { username, password, role } = req.body;
   fs.readFile(`${role}.json`, (err, data) => {
@@ -59,10 +63,11 @@ const login = (req, res) => {
 };
 
 //Dev list
-const devList = async (req, res) => {
-  const devData = fs.readFileSync("developers.json");
-  res.send(devData);
-};
+// const devList = async (req, res) => {
+//   const devData = fs.readFileSync("developers.json");
+//   res.send(devData);
+// };
+const devList = async (req, res) => {};
 //Comp list
 const compList = async (req, res) => {
   const compData = fs.readFileSync("companies.json");
@@ -89,7 +94,7 @@ const postJob = async (req, res) => {
     });
   });
 };
-module.exports = {
+const register = (module.exports = {
   homePage,
   hireDeveloper,
   registerDeveloper,
@@ -98,4 +103,4 @@ module.exports = {
   compList,
   postJob,
   jobList,
-};
+});
