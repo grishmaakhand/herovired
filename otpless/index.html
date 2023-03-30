@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>otpless</title>
+  </head>
+  <body>
+    <button id="otpless">
+      <script type="text/javascript" src="https://otpless.com/auth.js"></script>
+      <!-- Get user's whatsapp number and name -->
+      <script type="text/javascript">
+        function otpless(otplessUser) {
+          var waName = otplessUser.waName;
+          var waNumber = otplessUser.waNumber;
+          // Signup/signin the user and redirect to next page
+          window.location.replace("home.html");
+        }
+      </script>
+    </button>
+  </body>
+</html>
